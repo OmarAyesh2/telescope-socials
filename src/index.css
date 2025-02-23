@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply Arabic font to the entire app */
+html {
+  font-family: 'Tajawal', system-ui, sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Better tap highlights on mobile */
+@media (hover: none) {
+  a:active {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+}
